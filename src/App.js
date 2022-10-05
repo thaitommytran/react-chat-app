@@ -20,7 +20,7 @@ function App() {
         {/* Navbar */}
         <Navbar />
         {/* Chat component */}
-        <Chat />
+        {user && <Chat/>}
       </section>
     </div>
   );
